@@ -1,0 +1,381 @@
+/* @media (prefers-color-scheme: light) { */
+
+body {
+	background-color: #eaf1f6;
+}
+
+/*light : 浅色*/
+a {
+	color: #0055ff;
+}
+
+#info {
+	color: #333;
+}
+
+.controller {
+	border-right: 1px solid #e4e4e4;
+	background-color: #ffffff;
+	box-shadow: 0 0 15px rgba(86, 86, 86, .3);
+}
+
+.item {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.itemFocus {
+	border: 1px solid #6a93d1;
+	border-bottom: 2px solid #6a93d1;
+}
+
+.itemFocus .expressionBox {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.item .type {
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	background-color: #f7f7f7;
+}
+
+.item .type index {
+	color: #666;
+}
+
+.item .type .flag {
+	color: #fff;
+}
+
+.expression {
+	color: #333;
+}
+
+.expressionName {
+	color: #666;
+	background-color: transparent;
+}
+
+.expressionName:hover {
+	background: #fff;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.expressionBox .info {
+	color: #a5a5a5;
+}
+
+.item #copy {
+	color: #333;
+}
+
+.item #copy:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.item .delete {
+	color: #adadad;
+}
+
+.item .delete:hover {
+	color: #000000;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.add {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.add button {
+	color: #666;
+	background: #fff;
+	border-right: 1px solid #e4e4e4;
+}
+
+.add button:hover {
+	background-color: #f9f9f9;
+}
+
+.add input {
+	color: #333;
+}
+
+.settingList li {
+	border-bottom: 1px solid #e9e9e9;
+}
+
+
+.settingList li .name {
+	color: #333;
+}
+
+.settingList li .inputs {
+	color: #999;
+}
+
+.settingList li .inputs input:focus {
+	border: 1px solid #55aaff;
+	box-shadow: 0 0 5px rgba(0, 170, 255, 0.5);
+}
+
+.settingList li .inputs button {
+	color: #333;
+	background: #f0f0f0;
+	border: 1px solid #cacaca;
+}
+
+.settingList li select {
+	color: #333;
+	border: 1px solid #dedede;
+}
+
+.sonParameter::-webkit-scrollbar-track {
+	background-color: #ebebeb;
+}
+
+.sonParameter::-webkit-scrollbar-thumb {
+	background-color: #d7d7d7;
+}
+
+.sonParameter table th {
+	color: #666;
+}
+
+.sonParameter table tr {
+	color: #666;
+}
+
+.sonParameter table input,
+.sonParameter table select {
+	color: #333;
+	background-color: #fff;
+	border-bottom: 1px solid #c5c5c5;
+}
+
+.sonParameter #bind {
+	background: transparent;
+}
+
+.btn {
+	color: #333;
+	background-color: #ececec;
+}
+
+.sonChange #removeRotor:hover {
+	color: #df0000;
+}
+
+.sonChange #addRotor:hover {
+	color: #008b00;
+}
+
+.btn:hover {
+	background-color: #e4e4e4;
+}
+
+.sonParameter .domain {
+	color: #c3c3c3;
+}
+
+.slideUp {
+	color: #333;
+}
+
+.slideUp:hover {
+	background-color: #f0f0f0;
+}
+
+.sonParameter fieldset {
+	border: 1px solid #c7c7c7;
+}
+
+.sonParameter fieldset legend {
+	color: #333;
+}
+
+
+.sonParameter fieldset input {
+	background-color: #fff;
+}
+
+
+.accordion .label {
+	color: #808080;
+	border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.accordion:first-child .label {
+	border-top: 1px solid rgba(0, 0, 0, 0);
+}
+
+.accordion .label:hover {
+	color: #000000;
+	/* background: rgba(255, 255, 255, .05); */
+}
+
+.accordion .label:hover i {
+	color: #000000;
+}
+
+.state {
+	color: #333;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.state button {
+	color: #333;
+	background-color: #fff;
+}
+
+.state table tr td:nth-child(2) {
+	color: #00aaff;
+}
+
+.fa-toggle-off {
+	color: #333333;
+}
+.fa-toggle-on {
+	color: #006eff;
+}
+
+.toNight {
+	color: #333;
+	background-color: #fff;
+}
+
+.addMenu {
+	background: #fff;
+	color: #676767;
+	border: 1px solid #cccccc;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.addMenu .addMenuItem:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.setting-collapse {
+	color: #666;
+}
+
+.tools button {
+	background: #fff;
+	color: #333;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.examples {
+	background-color: rgba(240, 248, 255, 1);
+}
+
+.examples header {
+	border-bottom: 1px solid #c3c9ce;
+}
+
+.examples header button:focus {
+	color: #fff;
+	background: #55aaff;
+}
+
+.examples .close {
+	background: #f0f8ff;
+	box-shadow: 0px 0 5px 5px #f0f8ff;
+}
+
+.examples .close:hover {
+	background-color: red;
+	color: #fff;
+}
+
+.optionMenu {
+	background: #fffefa;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+}
+
+.optionMenu div:hover {
+	color: #fff;
+	background: rgba(120, 181, 255, 1.0);
+}
+
+.optionMenu hr {
+	border: 1px solid #dcdbda;
+}
+
+.Algebra #name {
+	color: #000;
+}
+
+.Algebra .alterArea input[type=range] {
+	background: #999;
+}
+
+.Algebra .alterArea input[type=range]::-webkit-slider-thumb {
+	background: #000;
+}
+
+.Algebra .alterArea .domain {
+	color: #000;
+}
+
+.Algebra .alterArea #play {
+	border: 2px solid #797979;
+}
+
+.Algebra .alterArea #play:hover {
+	border: 2px solid #000;
+}
+
+.Algebra .alterArea .fa {
+	color: #797979;
+}
+
+.Algebra .alterArea #play .fa:hover {
+	color: #000;
+}
+
+.Algebra .alterArea .rateBox i {
+	color: #999;
+}
+
+.Algebra .alterArea .rateBox i:hover {
+	color: #000;
+}
+
+
+input[type=file]::-webkit-file-upload-button {
+	/* color: #dddddd; */
+	border: 1px solid #cacaca;
+	/* border-radius: 5px; */
+	/* background-color: #48517f; /* 设置按钮背景颜色为红色 */
+}
+
+.more {
+	color: #666;
+}
+
+.model .drop-area {
+	color: #696969;
+	border: 2px dashed #ccc;
+}
+
+.model .dropPrompt {
+	color: #838383;
+}
+
+.model .clear {
+	color: #666;
+}
+
+.model .clear:hover {
+	background: rgba(0, 0, 0, 0.05);
+	color: #666;
+} 
+
+.SeeDebugBoard {
+    color: #000;
+    background-color: rgba(0, 0, 0, .15);
+}
+
+.SeeDebugBoard button {
+	background: #fff;
+}
+/* } */
